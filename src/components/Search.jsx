@@ -14,7 +14,7 @@ function Search({ onSearch }) {
     }
 
     try {
-      const API_KEY = "ebb4c25f6edab333d4500c49d6337678";
+      const API_KEY ="";
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
       );
